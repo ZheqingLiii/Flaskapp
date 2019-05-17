@@ -13,6 +13,8 @@ services:
       - 8080
       - 8081
       - 8082
+    volumes:
+      - .:/code
 
 
   nginx:
